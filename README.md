@@ -1,2 +1,18 @@
-# ReactStackDemo
-React Test named "Introduction to Stack" with flux 
+react-flux-stack
+================
+Code for the tutorial by @Ravi: Create a Stack Demo Using React.js and Flux
+
+git checkout stack
+```
+Then install the dependencies:
+
+```
+> $ npm install
+```
+
+Start watchify:
+
+```
+> $ npm start
+```
+Open index.html file in browser.

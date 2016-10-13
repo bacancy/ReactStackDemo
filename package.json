@@ -1,0 +1,39 @@
+{
+  "name": "React-Test",
+  "version": "0.0.1",
+  "description": "Pricing component with flux",
+  "main": "js/app.js",
+  "dependencies": {
+    "codemirror": "^5.19.0",
+    "flux": "^2.0.0",
+    "keymirror": "^0.1.1",
+    "react": "^15.3.0",
+    "react-codemirror": "^0.2.6",
+    "react-dom": "^15.3.0",
+    "react-progress-bar-plus": "^1.2.0",
+    "uglifyjs": "^2.4.10",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "~13.1.0",
+    "envify": "~3.4.1",
+    "react": "^15.3.0",
+    "reactify": "^1.1",
+    "watchify": "~3.7.0"
+  },
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d .",
+    "build": "browserify . | uglifyjs -cm > js/bundle.min.js",
+    "test": "jest"
+  },
+  "author": "Ravi Patel",
+  "contributors": [
+    "Rv"
+  ],
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  }
+}
