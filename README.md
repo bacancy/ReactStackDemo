@@ -2,7 +2,7 @@ react-flux-stack
 ================
 Code for the tutorial by @Ravi: Create a Stack Demo Using React.js and Flux
 
-git checkout stack
+
 ```
 Then install the dependencies:
 
